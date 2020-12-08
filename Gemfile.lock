@@ -1,11 +1,4 @@
 PATH
-  remote: engines/contacts
-  specs:
-    blast_contacts (0.0.1)
-      deface
-      rails (~> 5.2.4.4)
-
-PATH
   remote: engines/core
   specs:
     blast_core (0.1.0)
@@ -225,7 +218,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  blast_contacts!
   blast_core!
   bootsnap (>= 1.1.0)
   byebug
