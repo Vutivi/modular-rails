@@ -4,7 +4,7 @@
                 class: "nav-link #{active(admin_path)}" %>
   </li>
 
-  <li class="nav-item">
+  <li class="nav-item" data-contacts-link-hook='admin-contacts'>
     <%= link_to blast.admin_users_path,
                 class: "nav-link #{active(blast.admin_users_path)}" do %>
      Users
